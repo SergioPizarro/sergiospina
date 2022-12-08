@@ -71,4 +71,11 @@ group :test do
   gem "webdrivers"
 end
 
+  #----------------------------------------------------------------------------------
+  # Gems writted by Sergio
+
+  # Spina gem connected to the repository of Jonathan
 gem "spina", git:'git@github.com:Jonathan-Jacob/spinuvet.git'
+
+  # Env gem to save keys
+gem "dotenv-rails", groups: [:development, :test]
