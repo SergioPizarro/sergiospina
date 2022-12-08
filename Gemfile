@@ -79,3 +79,7 @@ gem "spina", git:'git@github.com:Jonathan-Jacob/spinuvet.git'
 
   # Env gem to save keys
 gem "dotenv-rails", groups: [:development, :test]
+
+  # Cloudinary 
+gem "cloudinary"
+
